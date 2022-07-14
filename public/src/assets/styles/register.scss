@@ -15,6 +15,10 @@
     border-bottom: 1px solid $blue;
     color: $white;
     padding: 0 10px !important;
+    &:focus {
+        outline: none;
+        background-color: transparent;
+    }
 }
 
 .auth-span {
